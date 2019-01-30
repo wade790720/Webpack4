@@ -55,5 +55,6 @@ module.exports = {
                 }]
             },
         ]
-    }
+    },
+    devtool: devMode ? "cheap-module-source-map" : "nosources-source-map"
 }
