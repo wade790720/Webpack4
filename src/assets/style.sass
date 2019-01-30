@@ -1,0 +1,47 @@
+$button-color: #39a28d
+
+body
+    margin: 0
+
+html, body, #wrapper, article
+    height: 100%
+
+article
+    display: flex
+    flex-direction: column
+    background: #eee
+
+header
+    height: 60px
+    background: #3c3939
+    color: #fff
+
+footer
+    height: 40px
+    background: #ccc
+
+header, footer
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100%
+
+section
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    flex: 1
+
+    p
+        font-size: 6em
+        font-weight: bold
+        margin: 0 0 .5em
+        transform: scale(.9)
+        color: $button-color
+
+    .dx-button-text
+        cursor: pointer
+
+        &[disabled]
+            cursor: default
